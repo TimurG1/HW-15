@@ -3,7 +3,7 @@
     margin: 10px auto;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    outline: 4px solid black;
+    outline: 3px solid black;
     display: flex;
     flex-wrap: wrap;
 }
@@ -16,6 +16,7 @@
     width: 300px;
     background-color: rgb(247, 83, 83);
     order: 1;
+    border-top-left-radius: 15px;
 }    
 .item:nth-child(2){
     width: 200px;
@@ -35,5 +36,6 @@
 .item:nth-child(5){
     width: 300px;
     background-color:  rgb(233, 151, 37);
-    order: 2;   
+    order: 2;  
+    border-top-right-radius: 15px; 
 }    
